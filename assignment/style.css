@@ -1,11 +1,96 @@
 /* Give your page a fun background color */
+body {
+  background-color: #fff2cc;
+
+}
 
 /* Make the header and footer a different color from the background */
+header, footer {
+  background-color: #FFD700
+
+}
+
+header {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 95%;
+  padding-bottom: 75px;
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+
+.box {
+  width: clamp(45ch, 50%, 75ch);
+  display: flex;
+  flex-direction: column;
+  background: #ffcc99;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
 
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+  text-align: center;
+}
 /* Make your p tag a different color and italic */
-
+p {
+  color: #cc3300;
+  font-style: italic;
+  font-weight: bolder;
+}
 /* Put a border around your image */
+img {
+  border: 5px solid black;
+  margin: 30px;
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
 
+li {
+  margin: 10px 0;
+  padding-top: 5px;
+}
 /* Change the font-family of your list */
+#list {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+#facts-title {
+  padding: 2px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 25px;
+  display: inline;
+  border: 5px solid black;
+
+  margin: 20px;
+  margin-left: 58px;
+  margin-right: 58px;
+  text-align: center;
+
+
+
+}
